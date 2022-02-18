@@ -9,15 +9,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skipnav" href="#main">Skip to Content</a>
   <header>
     <h1><a href="index.html" class="home highlight">dp.</a></h1>
     <nav class="buttons">
-      <a href="projects.html" class="projects highlight active">projects.</a>
+      <a href="#main" aria-current="page" class="projects highlight active">projects.</a>
       <a href="about.html" class="about highlight">about.</a>
     </nav>
   </header>
-  <main>
-    <section>
+  <main id="main">
+    <section class="hero">
       <h2>Project Highlights.</h2>
       <div class="cards">
         <div class="card">
@@ -53,7 +54,7 @@
       </div>
     </section>
     <section>
-      <h2>All Projects</h2>
+      <h2>All Projects.</h2>
       <div class="cards">
         <div class="card">
           <img class="staple" src="images/staple.png" alt=""/>
@@ -129,7 +130,7 @@
     </section>
     <section>
       <h2>Contact me.</h2>
-      <a href="#" class="resume sketch-highlight">résumé.</a>
+      <a href="resume.pdf" class="resume sketch-highlight">résumé.</a>
       <a class="highlight" href="mailto:dcplaskett@gmail.com">my email.</a>
     </section>
   <footer>
