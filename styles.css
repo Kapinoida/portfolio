@@ -484,11 +484,11 @@ text-shadow: .75rem .15rem .5rem rgba(0,255,217 0.5);
 }
 
 .card:first-child .staple{
-  transform: rotate(-3deg);
+  transform: rotate(-5deg);
 }
 
 .card:last-child .staple{
-  transform: rotate(2deg);
+  transform: rotate(8deg);
 }
 
 .card .buttons {
